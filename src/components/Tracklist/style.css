@@ -1,0 +1,47 @@
+.song-list{
+  list-style-type: none;
+  padding: 20px;
+  
+}
+li.header{
+  text-transform: uppercase;
+  background-color: #162447;
+  font-size: 1.2em;
+  color:white;
+}
+li.header b:last-of-type{
+  margin-left: 220px;
+  margin-right: 110px;
+}
+.song-list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid;
+  padding: 10px;
+  margin: 5px 0;
+  color:white;
+}
+li b:first-of-type{
+  margin-right: auto;
+}
+
+li audio{
+  outline:none;
+  margin-left: 100px;
+}
+
+.search{
+  border-radius: 20px;
+  background-color:transparent;
+  border:1px solid #fff;
+  text-decoration: none;
+  transition: 200ms;
+  margin-right: 20px;
+  text-align: left;
+}
+.search:hover{
+  background-color: #fff;
+  color:#162447;
+  border-color:#162447;
+}

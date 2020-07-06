@@ -1,0 +1,34 @@
+form{
+  padding: 20px;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  --aqua1: #2fc4b2;
+  transform: scale(1.3);
+}
+.input{
+  margin: 0;
+  padding: 5px 2px;
+  border:none;
+  border-bottom: 1px solid #00005c;
+}
+.input:focus{
+  /* border:none; */
+  border-bottom-color: var(--aqua1);
+  transition: 200ms;
+  outline:none;
+}
+.btn {
+  background-color: var(--aqua1);
+  color:white;
+  padding: 5px 15px;
+  border:0;
+  border-radius: 3px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.input, .btn{
+  font-size: 1.03em;
+}

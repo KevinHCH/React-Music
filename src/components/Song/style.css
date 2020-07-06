@@ -1,0 +1,54 @@
+.song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  padding: 10px;
+  --dark-blue: #303960;
+  outline: 1px solid var(--dark-blue);
+}
+.song header {
+  margin-bottom: auto;
+}
+.artist, .album-name {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: var(--dark-blue);
+  text-align: center;
+  font-family: inherit;
+}
+.mute {
+  filter: blur(1px) brightness(0.4);
+  transition: 400ms;
+  background-color: rgba(0,0,0,.7);
+}
+.song figure {
+  border-radius: 50%;
+}
+figure > img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px var(--dark-blue);
+}
+.song audio {
+  width: 100%;
+  outline: none;
+}
+
+.audioPlayer {
+  border-radius: 20px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:80%;
+  margin:0 auto;
+}
+
+.album-name{
+  background-color: #2ecc71;
+}

@@ -1,0 +1,31 @@
+.artist-container{
+  width: 90%;
+  padding: 20px;
+  height: auto;
+}
+.artist-container figure {
+  max-width: 50%;
+  min-width: 100px;
+  margin: 0 auto;
+  
+}
+.artist-container figure img{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #000;
+}
+.artist-container > a{
+  text-decoration: none;
+  color:#000;
+  font-size: 1.2em;
+  text-align: center;
+}
+.artist-container > a figcaption{
+  margin:10px 0;
+}
+.artist-container section {
+  text-align: center;
+}
+.artist-container ul {
+  list-style-type: none;
+}

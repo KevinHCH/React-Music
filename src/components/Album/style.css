@@ -1,0 +1,68 @@
+.album {
+  width: 60%;
+  margin: 20px auto;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 10px 10px 5px darkslategray;
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --dark-blue: #00005c;
+}
+.album header {
+  font-size: 1.2em;
+  text-align: center;
+}
+.album header h3 {
+  padding-top: 20px;
+}
+.album .subtitle h4 {
+  background-color: var(--dark-blue);
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  display: inline;
+}
+.album .subtitle figure {
+  width: 50%;
+  max-width: 50%;
+  margin: 20px auto;
+}
+.subtitle figure img {
+  box-shadow: 0px 0px 10px #fff;
+}
+.wrapper {
+  padding: 20px;
+  text-align: left;
+  color: var(--dark-blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.wrapper .genres span {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+/* responsive */
+@media screen and (max-width:900px){
+  .album{
+    width: 90%;
+  }
+  li audio {
+    margin-left: 10px;
+  }
+  li.header{
+    display: none;
+  }
+}

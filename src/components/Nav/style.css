@@ -1,0 +1,29 @@
+.navbar nav,
+.navbar nav ul,
+.navbar nav ul li,
+.navbar nav ul li a{
+  margin: 0;
+  padding:0;
+}
+.navbar nav ul{
+  font-family: 'Inter', sans-serif;
+  background-color: #142850;
+  
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar nav ul li{
+  padding:20px 0;
+}
+.navbar nav ul li a{
+  color:white;
+  text-decoration: none;
+  border:none;
+  padding: 20px;
+  transition: 300ms;
+}
+.navbar ul li a:hover{
+  -webkit-box-shadow: inset 0px 0px 5px 5px #536983;
+  -moz-box-shadow: inset 0px 0px 5px 5px #536983;
+  box-shadow: inset 0px 0px 5px 5px #536983;
+}
